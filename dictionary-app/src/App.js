@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import './Dictionary';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <div className="container">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1>Dictionary</h1>
       </header>
+      <main>
+        <Dictionary />
+      </main>
+      <footer>Coded by <a href="www.sebastiancseithel.com" taget="_blank" rel="noopener norefferer">Sebastian Coriander Seithel</a></footer>
+    </div>
     </div>
   );
 }
