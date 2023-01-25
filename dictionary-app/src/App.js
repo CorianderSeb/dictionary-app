@@ -22,7 +22,7 @@ function App() {
             >
               Sebastian Coriander Seithel
             </a>
-            and{" "}
+            {" "}and{" "}
             <a
               href="https://github.com/CorianderSeb/dictionary-app"
               target="_blank"
