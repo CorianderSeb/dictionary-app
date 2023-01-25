@@ -16,9 +16,9 @@ function App() {
             {" "}
             Coded by{" "}
             <a
-              href="www.sebastiancseithel.com"
+              href="https://www.sebastiancseithel.com"
               taget="_blank"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
             >
               Sebastian Coriander Seithel
             </a>
@@ -26,7 +26,7 @@ function App() {
             <a
               href="https://github.com/CorianderSeb/dictionary-app"
               target="_blank"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
             >
               open sourced on GitHub.
             </a>
