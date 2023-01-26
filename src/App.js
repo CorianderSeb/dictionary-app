@@ -9,7 +9,7 @@ function App() {
           <h1>Dictionary</h1>
         </div>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="code" />
         </main>
         <footer>
           <small>
@@ -21,8 +21,8 @@ function App() {
               rel="noopener noreferrer"
             >
               Sebastian Coriander Seithel
-            </a>
-            {" "}and{" "}
+            </a>{" "}
+            and{" "}
             <a
               href="https://github.com/CorianderSeb/dictionary-app"
               target="_blank"
