@@ -1,13 +1,13 @@
-import Dictionary from "./Dictionary";
-import "./App.css";
+import Dictionary from './Dictionary';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
+        <div className="App-header">
           <h1>Dictionary</h1>
-        </header>
+        </div>
         <main>
           <Dictionary />
         </main>
@@ -21,8 +21,8 @@ function App() {
               rel="noopener noreferrer"
             >
               Sebastian Coriander Seithel
-            </a>{" "}
-            and{" "}
+            </a>
+            {" "}and{" "}
             <a
               href="https://github.com/CorianderSeb/dictionary-app"
               target="_blank"
